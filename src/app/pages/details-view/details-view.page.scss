@@ -1,0 +1,27 @@
+.profile-item {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 15px;
+     
+   }
+   
+   .profile-picture {
+     border: 5px solid #0099cc;
+     border-radius: 100%;
+     margin: 0 auto;
+     width: 155px;
+     height: 155px;
+     overflow: hidden;
+    
+   }
+   
+   .profile-picture img {
+     width: 165px;
+     height: 160;
+     border-radius: 100%;
+     -webkit-border-radius: 100%;
+     -moz-border-radius: 100%;
+     -ms-border-radius: 100%;
+     -o-border-radius: 100%;
+   }
+   

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<ion-content class="dash">
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">
+        <ion-icon slot="icon-only" name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>C-LMIS Toolkit</ion-title>
+    <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+  <div class="dash">
+      <ion-row class="center">
+          <ion-col>
+              <a class="icon-circle-large icon-circle-outline " style="text-decoration: none;" routerLink="/tabs" routerDirection="forward">
+                <h6  padding>Builders</h6>
+              </a>
+             
+                <a class="icon-circle-large icon-circle-outline" style="text-decoration: none;" routerLink="#" routerDirection="forward">
+                  <h6  padding>Artisans</h6>
+                  </a>
+
+                <a class="icon-circle-large icon-circle-outline" style="text-decoration: none;" routerLink="#" routerDirection="forward">
+                  <h6  padding>Projects</h6>
+                </a>
+          </ion-col>
+
+          <ion-col>
+            <a class="icon-circle-large icon-circle-outline" style="text-decoration: none;" routerLink="#" routerDirection="forward">
+              <h6  padding>Pay Scale</h6>
+            </a>
+
+            <a class="icon-circle-large icon-circle-outline" style="text-decoration: none;" routerLink="#" routerDirection="forward">
+              <img src="./../../../assets/Untitled-1.png"/>
+            </a>
+               
+            <a class="icon-circle-large icon-circle-outline" style="text-decoration: none;"  routerLink="#" routerDirection="forward">
+              <h6  padding>Jobs</h6>
+            </a>
+              
+          </ion-col>
+        
+        </ion-row>
+        
+  </div>
+</ion-content>

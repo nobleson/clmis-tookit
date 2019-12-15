@@ -1,0 +1,57 @@
+/* menu styling */
+/* ion-menu{
+    ion-item,
+    ion-list, .list-md,
+    
+    ion-item{
+        --ion-color-light-tint: #f5f6f9;
+    }
+    ion-icon{
+        --ion-color-light-tint: #f5f6f9;
+    }
+} */
+ion-content{
+    --ion-background-color:#001339;
+    ion-item{
+        color: var(--ion-color-light-tint)
+  
+    }
+    ion-icon{
+        color: var(--ion-color-light-tint)
+        
+    }
+    ion-item:hover {
+
+        background-color: #0bb8cc;
+        color:white;
+        border-color: #0bb8cc;
+    }
+}
+.ion-text-center{
+    margin-top: 15%;
+} 
+h6{
+    color: var(--ion-color-warning-shade)  
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--ion-color-secondary-contrast);
+    min-height: 190px;
+    .logo-section__wrapper{
+        align-items: center;
+        .logo-section__logo{
+            display: block;
+            width: 70px;
+            height: 70px;
+        }
+       
+    }
+}
+.logo-section__title{
+    --ion-align-text: center;
+    font-size: 1.0rem;
+    font-weight: normal;
+    color: var(--ion-color-dark);
+}

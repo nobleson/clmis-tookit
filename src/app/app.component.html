@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<ion-app>
+    <ion-menu contentId="content1" side="start">
+        <div class="ion-text-center">
+            <img src="./../../../assets/icon/new.png" width="100px" height="100px"/>
+            <h6>C-LMIS - Toolkit</h6>
+        </div>
+      
+      <ion-content>
+        <ion-menu-toggle>
+          <ion-item lines="none" routerLink="profile" routerDirection="forward" >
+            <ion-icon  name="person" slot="start"></ion-icon>
+              Profile
+            </ion-item>
+       </ion-menu-toggle>
+
+       <ion-menu-toggle>
+          <ion-item lines="none" routerLink="#" routerDirection="forward">
+          <ion-icon  name="cog" slot="start"></ion-icon>
+            Settings
+          </ion-item>
+       </ion-menu-toggle>
+         
+      <ion-menu-toggle>
+          <ion-item lines="none" routerLink="#" routerDirection="forward">
+          <ion-icon name="help" slot="start"></ion-icon>
+            Help
+          </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+          <ion-item lines="none" routerLink="login" routerDirection="forward">
+             <ion-icon  name="log-out" slot="start"></ion-icon>
+             Sign Out
+            </ion-item>
+       </ion-menu-toggle>
+      </ion-content>
+     
+     <ion-row>
+      
+     </ion-row>
+    </ion-menu>
+    <ion-router-outlet id="content1" main></ion-router-outlet>
+  </ion-app>

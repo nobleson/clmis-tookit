@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<ion-content class="box">
+    <div class="ion-text-center">
+        <img src="./../../../assets/icon/new.png" width="150px" height="145px"/>
+        <h1>C-LMIS - Toolkit</h1>
+    </div>
+    <ion-card class="login">
+  <!-- <ion-card-header>
+    <ion-card-subtitle>Customer Service Representative</ion-card-subtitle>
+  </ion-card-header> -->
+  <ion-card-content padding>
+  <ion-item>
+    <ion-label position="floating">Username</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input></ion-input>
+ </ion-item>
+ <ion-button (click)="login()" class="shadow-red" shape="round" expand="block" padding>Login</ion-button>
+  </ion-card-content>
+</ion-card>
+  <ion-row class="box">
+      <ion-col>
+          <ion-icon name="alert" size="small"></ion-icon>
+          <button position="floating" ion-button block clear color="dark">
+              I forgot my password
+            </button>
+      </ion-col>
+  </ion-row>
+</ion-content>

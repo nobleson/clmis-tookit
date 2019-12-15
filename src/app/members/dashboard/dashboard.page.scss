@@ -1,0 +1,94 @@
+ion-content{
+  --ion-background-color:#001339;
+}
+.icon-circle, .icon-circle-large, .icon-circle-small{
+      position: relative;
+      display: inline-block;
+      border-radius: 50%;
+      border: 1px solid #ebebeb;
+      background: #001339;
+      /*#ececec:;
+      ebebeb*/color: #fff;
+      text-align:center;
+      /*vertical-align: middle;
+      */-webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      -webkit-border-radius: 50%;
+}
+  .a{
+    --text-decoration: none !important;
+  }
+  .icon-circle-outline {
+    border: 1px solid white;
+    background:transparent;
+    color: white;
+    margin-left: 9%;
+    margin-right: 9%;
+   
+    /*color: #8a6de9;*/
+ }
+  .icon-circle-large {
+    width: 96px;
+    height: 96px;
+    font-size: 1.5rem;
+    
+    margin-top: 15%;
+    background: #001339;
+  }
+  .item-icon-circle {
+     -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+      border-radius: 50%;
+      width: 100%;
+      height: 100px; 
+    /* width and height can be anything, as long as they're equal */
+    text-align:center;
+    color:white;
+    /* font size here wont work */
+  
+  }
+
+  
+  body {font-family: Roboto, Helvetica, Arial, sans-serif;}
+  
+  .bg-circle-alt {
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px; 
+  }
+  .larger {
+    font-size: 40px;
+}
+/* .center{
+  margin-left: 10%;
+  margin-right: 20%;
+} */
+.dash{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 10% 0;
+  min-height: 100px;
+  align-items: center;
+  background-color:#001339
+  
+}
+.h6{
+  color:white;
+  --text-decoration: none !important;
+}
+
+
+  
+  
+  
+  
+  
+  

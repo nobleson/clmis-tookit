@@ -1,0 +1,7 @@
+{
+  "name": "csr-system",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

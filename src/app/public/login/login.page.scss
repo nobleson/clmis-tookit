@@ -1,0 +1,43 @@
+ion-content{
+    --background:url('./../../../assets/b31.png')  no-repeat top/cover fixed;
+    background-size: 100% 50%;
+    background-color:#6a5c51;
+    position: absolute;
+}
+
+.ion-text-center{
+margin-top: 20%;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
+.login{
+    padding-bottom:10px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box{
+    color:white;
+    text-align: center;
+}
+.dash{
+    margin-top: 15%; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.round{
+    border-radius:5px!important;
+    -webkit-border-radius:5px!important;
+    -moz-border-radius:5px!important;
+    -ms-border-radius:5px!important;
+    -o-border-radius:5px!important;
+}
+
+
+
